@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+    }
+
+    .container {
+      background: #fff;
+      width: 360px;
+      padding: 20px;
+      margin: 100px auto;
+      border-radius: 6px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    #message {
+      margin-top: 10px;
+      text-align: center;
+      font-variant-emoji;
+
+    h2{
+        text-align: center;
+
+    
+    }
+    
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Student Registration</h2>
+
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Student Name">
+
+      <select id="level">
+        <option value="">Select Education Level</option>
+        <option value="Primary">Primary</option>
+        <option value="Secondary">Secondary</option>
+        <option value="High School">High School</option>
+        <option value="University">University</option>  
+        <option value="University">University</option>  
+        </select>
+
+      <input type="text" id="school" placeholder="Previous School">
+       <input type="number" id="number" placeholder= "your number">
+       <input type="number" id="number" placeholder= "Parent  number">
+
+      <input type="email" id="email" placeholder="Email Address">
+
+      <button type="submit">Register</button>
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <!-- JavaScript link -->
+  <script src="index.js"></script>
+</body>
+</html>
